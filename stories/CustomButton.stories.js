@@ -7,3 +7,8 @@ export default{
 };
 
 export const MyCustomButton = () => <CustomButton/>;
+
+export const PageWithCustomButtons = () => <div>
+    <CustomButton/>
+    <CustomButton/>
+</div>

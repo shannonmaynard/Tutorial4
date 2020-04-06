@@ -1,0 +1,21 @@
+.custom_button_box{
+    background-color: #DAB;
+    display: inline-flex;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;   
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(159, 128, 128);
+    margin: 10px;
+}
+
+.custom_button_box:active{
+    background-color: #999;
+}
+
+.custom_button_box_inner::selection{
+    background: none;
+    color: none;
+}
