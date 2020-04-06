@@ -9,6 +9,15 @@ export default{
 export const MyCustomButton = () => <CustomButton/>;
 
 export const PageWithCustomButtons = () => <div>
-    <CustomButton/>
-    <CustomButton/>
+    <CustomButton 
+    color="#999"
+    text="Cancel"/>
+    <CustomButton 
+    color="#3F5"
+    text ="OK"/>
+    <CustomButton 
+    color="#F3F"
+    text ="Submit"/>
+    <CustomButton 
+    text ="Menu"/>
 </div>
