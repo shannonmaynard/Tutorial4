@@ -23,7 +23,8 @@ function ButtonClick(){
 CustomButton.defaultProps={
     text:"Default Button",
     color: "#DAB",
-    onClick: ButtonClick
+    onClick: ButtonClick,
+    
 }
 
 export default CustomButton;

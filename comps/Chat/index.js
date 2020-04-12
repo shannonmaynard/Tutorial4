@@ -4,10 +4,12 @@ import Header from '../Header';
 
 const defaultImg = require('./default.png');
 
-const Chat = ({msg}) => <div className="chat_card">
+const Chat = ({msg, img, name, backgroundColor}) => <div 
+style={{backgroundColor:backgroundColor}}
+className="chat_card">
     <div class="chat_user">
-        <img src={defaultImg} />
-        <Header fontSize="100%" text="Username" />
+        <img src={img} />
+        <Header fontSize="100%" text={name} />
     </div>
     <div className="chat.msg">
         {msg}
@@ -15,7 +17,10 @@ const Chat = ({msg}) => <div className="chat_card">
 </div>;
 
 Chat.defaultProps = {
-msg: "Please type something!"
+msg: "Please type something!",
+img:defaultImg,
+name:"Username",
+backgroundColor: "#eee"
 }
 
 export default Chat;
