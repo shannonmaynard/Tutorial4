@@ -1,0 +1,22 @@
+.chat_user{
+    display: inline-flex;
+    align-items: center;
+
+}
+.chat_user img{
+    width: 25px;
+    height:25px;
+    object-fit: contain;
+    margin-right: 5px;
+
+}
+
+.chat_card{
+    background-color: rgb(199, 213, 244);
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #555;
+}
