@@ -19,7 +19,7 @@ function ClickIndex(){
 
 
 const Index = () => <div id="mainapp">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"></link>
+    
   
     <div onClick={ClickIndex}><IoIosSearch />Index</div>
    
