@@ -27,18 +27,10 @@ const Contact = () => {
             setLeft(0);
         }, 50);
 
-       // useEffect(() => {
-          //  setHeader("Changed!");
-       // }, [pageleft])
-
         return () => {
             //What to do when the component dies
         }
     }, []);
-
-   
-
-
 
     useEffect(() => {
         //What to do when it's created/born/beginning of the life cycle
