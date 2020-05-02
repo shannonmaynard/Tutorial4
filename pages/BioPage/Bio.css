@@ -1,0 +1,15 @@
+#Bio {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition:left 1s;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+#back{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}

@@ -1,0 +1,18 @@
+#contactpage{
+    position: relative;
+    transition:left 1s;
+    width: 50%;
+}
+
+#email-input{
+    height: 40px;
+    width: 200px;
+}
+
+#email{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+

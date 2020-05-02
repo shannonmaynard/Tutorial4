@@ -4,7 +4,7 @@ import './cb.css';
 
 
 //made the UI
-const CustomButton = ({text, color, onClick}) => <div 
+const CustomButton = ({text, color, onClick,}) => <div 
 style={{backgroundColor:color, boxShadow:"1px 1px 5px "+color}}
 className="custom_button_box"
 onClick={onClick}
@@ -16,7 +16,7 @@ onClick={onClick}
 </div>
 
 function ButtonClick(){
-    alert("Clicked");
+    alert("Click OK");
     //document.querySelector("id").style.width = "100px";
 }
 
@@ -24,6 +24,7 @@ CustomButton.defaultProps={
     text:"Default Button",
     color: "#DAB",
     onClick: ButtonClick,
+  
     
 }
 

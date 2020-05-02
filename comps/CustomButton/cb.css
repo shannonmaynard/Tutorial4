@@ -9,6 +9,8 @@
     cursor: pointer;
     box-shadow: 1px 1px 5px rgb(159, 128, 128);
     margin: 10px;
+    width: 100px;
+    justify-content: center;
 }
 
 .custom_button_box:active{

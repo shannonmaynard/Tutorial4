@@ -8,6 +8,8 @@ import {AiOutlineProfile} from 'react-icons/ai';
 
 
 
+
+
 function ClickIndex(){
 
     document.querySelector("#mainapp").style.right= "-100%";

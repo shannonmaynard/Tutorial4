@@ -7,14 +7,14 @@ const defaultImg = require('./default.png');
 const Chat = ({msg, img, name, backgroundColor}) => <div 
 style={{backgroundColor:backgroundColor}}
 className="chat_card">
-    <div class="chat_user">
+    <div className="chat_user">
         <img src={img} />
         <Header fontSize="100%" text={name} />
     </div>
     <div className="chat.msg">
         {msg}
     </div>
-</div>;
+</div>
 
 Chat.defaultProps = {
 msg: "Please type something!",
